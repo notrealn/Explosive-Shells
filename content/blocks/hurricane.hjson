@@ -21,7 +21,7 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 2
-    lifeTime: "nextDouble() * 100" + 100
+    lifeTime: 1000
   }
 }
 requirements: [
