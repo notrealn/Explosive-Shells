@@ -73,14 +73,26 @@ const simpleBullet = extend(BasicBulletType, {
     damage: 5,
     pierce: true,
     despawnEffect: "flakExplosionBig",
-    bulletWidth: 10,
-    bulletHeight: 13,
+    bulletWidth: 15,
+    bulletHeight: 20,
     fragBullets: 5,
     fragVelocityMin: 1,
-    fragVelocityMax: 1,
+    fragVelocityMax: 2,
     fragBullet: {
+        bulletWidth: 15,
+        bulletHeight: 20,
+        fragBullets: 5,
+        fragVelocityMin: 1,
+        fragVelocityMax: 2,
         damage: 5,
         pierce: true,
         despawnEffect: "flakExplosionBig",
+        fragBullet: {
+            bulletWidth: 15,
+            bulletHeight: 20,
+            damage: 5,
+            pierce: true,
+            despawnEffect: "flakExplosionBig",
+        }
     }
 });
