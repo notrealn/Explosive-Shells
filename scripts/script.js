@@ -57,42 +57,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
                     	"type": "BasicBulletType",
                     	"damage": 5,
                     	"pierce": true,
-                    	"despawnEffect": "flakExplosionBig",
-                    	"fragBullets": 5,
-                    	"fragBullet": {
-                    		"type": "BasicBulletType",
-                    		"damage": 5,
-                    		"pierce": true,
-                    		"despawnEffect": "flakExplosionBig",
-                    		"fragBullets": 5,
-                    		"fragBullet": {
-                    			"type": "BasicBulletType",
-                    			"damage": 5,
-                    			"pierce": true,
-                    			"despawnEffect": "flakExplosionBig",
-                    			"fragBullets": 5,
-                    			"fragBullet": {
-                    				"type": "BasicBulletType",
-                    				"damage": 5,
-                    				"pierce": true,
-                    				"despawnEffect": "flakExplosionBig",
-                    				"fragBullets": 5,
-                    				"fragBullet": {
-                    					"type": "BasicBulletType",
-                    					"damage": 5,
-                    					"pierce": true,
-                    					"despawnEffect": "flakExplosionBig",
-                    					"fragBullets": 5,
-                    					"fragBullet": {
-                    						"type": "BasicBulletType",
-                    						"damage": 5,
-                    						"pierce": true,
-                    						"despawnEffect": "flakExplosionBig"
-                    					}
-                    				}
-                    			}
-                    		}
-                    	}
+                    	"despawnEffect": "flakExplosionBig"
                     },
                     tile.getTeam(),
                     tile.drawx(), 
