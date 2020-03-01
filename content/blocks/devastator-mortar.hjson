@@ -6,8 +6,8 @@ size: 3
 reload: 240
 range: 1500
 ammoUseEffect: shellEjectBig
-inaccuracy: 8
-rotatespeed: 8
+inaccuracy: 3
+rotatespeed: 2
 targetAir: false
 ammo: {
   explosive-shell: {
@@ -18,7 +18,7 @@ ammo: {
     collidesAir: false
     speed: 5
     damage: 10
-    splashDamage: 30
+    splashDamage: 40
     splashDamageRadius: 30
     despawnEffect: shockwave
     bulletWidth: 10
@@ -27,7 +27,7 @@ ammo: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     fragBullets: 5
-    fragBullet: flakExplosive
+    fragBullet: bombExplosive
   }
 }
 requirements: [
