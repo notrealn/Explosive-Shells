@@ -30,8 +30,10 @@ ammo: {
     fragBullet: {
       type: FlakBulletType
       damage: 5
+      splashDamage: 10
+      splashDamageRadius: 20
       despawnEffect: flakExplosionBig
-      lifetime: 30
+      lifetime: 60
     }
   }
 }
