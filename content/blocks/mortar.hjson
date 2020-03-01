@@ -13,11 +13,14 @@ ammo: {
   explosive-shell: {
     speed: 3
     damage: 3
-    bulletWidth: 7
-    bulletHeight: 9
+    splashDamage: 40
+    splashDamageRadius: 20
+    despawnEffect: impactShockwave
+    bulletWidth: 15
+    bulletHeight: 20
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 5
+    ammoMultiplier: 1
   }
 }
 requirements: [
