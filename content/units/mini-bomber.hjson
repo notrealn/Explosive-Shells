@@ -1,5 +1,5 @@
 type: flyingUnit
-name: Mini-bomber
+name: Mini Bomber
 description: Drops dangerous bombs.
 speed: 0.5
 flying: true
