@@ -1,4 +1,4 @@
-//this is NOT the complete definition for this block! see content/blocks/scatter-silo.hjson for the stats and other properties.
+
 
 //create a simple shockwave effect
 const siloLaunchEffect = newEffect(20, e => {
@@ -33,4 +33,3 @@ const silo = extendContent(Block, "scatter-silo", {
         }
     }
 })
-
