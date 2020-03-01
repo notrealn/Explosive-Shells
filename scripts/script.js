@@ -75,11 +75,11 @@ const booleet = extend(FlakBulletType, {
     despawnEffect: "flakExplosionBig",
     bulletWidth: 15,
     bulletHeight: 20,
-    fragBullets: 5,
+    fragBullets: 50,
     fragVelocityMin: 1,
     fragVelocityMax: 2,
     fragBullet: {
-        lifetime: 60,
+        lifetime: 600,
         bulletWidth: 15,
         bulletHeight: 20,
         fragBullets: 5,
