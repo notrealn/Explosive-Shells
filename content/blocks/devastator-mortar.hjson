@@ -1,7 +1,7 @@
 type: ArtilleryTurret
 name: Devastator Mortar
 description: Fires a shell that splits into many other explosive bullets, doing lots of damage.
-health: 200
+health: 1800
 size: 3
 reload: 240
 range: 1500
