@@ -23,7 +23,7 @@ const silo = extendContent(Block, "scatter-silo", {
             Effects.effect(siloLaunchEffect, tile)
 
             // create 10 bullets at this tile's location with random rotation and velocity/lifetime
-            for(var i = 0; i < 10; i++){
+            for(var i = 0; i < 200; i++){
                 Calls.createBullet(Bullets.flakExplosive, tile.getTeam(), tile.drawx(), tile.drawy(), Mathf.random(360), Mathf.random(0.5, 1.0), Mathf.random(0.2, 1.0))
             }
             // triggering consumption makes it use up the items it requires
@@ -68,45 +68,13 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
     }
 })
 
-const buleet2 = extend(ArtilleryBulletType, {
-    hitSize: 0,
-    collidesTiles: false,
-    collides: true,
-    collidesAir: false,
-    speed: 5,
-    damage: 10,
-    splashDamage: 40,
-    splashDamageRadius: 30,
-    despawnEffect: "shockwave",
-    bulletWidth: 10,
-    bulletHeight: 15,
-    ammoMultiplier: 1,
-    fragBullets: 5,
-    fragVelocityMin: 0.5,
-    fragVelocityMax: 1.5,
-    fragBullet: {
-      type: "BombBulletType",
-      bulletWidth: 8,
-      bulletHeight: 10,
-      damage: 5,
-      splashDamage: 20,
-      splashDamageRadius: 20,
-      drag: 0,
-      despawnEffect: "flakExplosionBig",
-      lifetime: 60,
-      collides: false
-    }
-})
-
-            
 const booleet = extend(FlakBulletType, {
     damage: 5,
-//     pierce: true,
     despawnEffect: "flakExplosionBig",
     bulletWidth: 15,
     bulletHeight: 20,
-    fragBullets: 50,
-    fragVelocityMin: 1,
-    fragVelocityMax: 2,
-    fragBullet: Bullets.flakExplosive
+//     fragBullets: 50,
+//     fragVelocityMin: 1,
+//     fragVelocityMax: 2,
+//     fragBullet: Bullets.flakExplosive
 });
