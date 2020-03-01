@@ -1,7 +1,7 @@
 name: Mini Bomber Factory
 description: Makes Mini Bomber units.
 type: UnitFactory
-unitType: chrome-wraith
+unitType: mini-bomber
 size: 2
 produceTime: 350
 consumes: {
