@@ -23,7 +23,7 @@ const silo = extendContent(Block, "scatter-silo", {
             Effects.effect(siloLaunchEffect, tile)
 
             // create 10 bullets at this tile's location with random rotation and velocity/lifetime
-            for(var i = 0; i < 200; i++){
+            for(var i = 0; i < 10; i++){
                 Calls.createBullet(Bullets.flakExplosive, tile.getTeam(), tile.drawx(), tile.drawy(), Mathf.random(360), Mathf.random(0.5, 1.0), Mathf.random(0.2, 1.0))
             }
             // triggering consumption makes it use up the items it requires
@@ -51,7 +51,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
             Effects.effect(siloLaunchEffect, tile)
             
             // create 20 bullets at this tile's location with random rotation and velocity/lifetime
-            for(var i = 0; i < 20; i++){
+            for(var i = 0; i < 200; i++){
                 Calls.createBullet(
                     booleet,
                     tile.getTeam(),
