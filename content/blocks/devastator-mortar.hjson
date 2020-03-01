@@ -34,6 +34,7 @@ ammo: {
       splashDamageRadius: 20
       despawnEffect: flakExplosionBig
       lifetime: 60
+      collides: false
     }
   }
 }
