@@ -53,12 +53,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
             //create 10 bullets at this tile's location with random rotation and velocity/lifetime
             for(var i = 0; i < 10; i++){
                 Calls.createBullet(
-                    {
-                    	"type": "BasicBulletType",
-                    	"damage": 5,
-                    	"pierce": true,
-                    	"despawnEffect": "flakExplosionBig"
-                    },
+                    Bullets.flakExplosive,
                     tile.getTeam(),
                     tile.drawx(),
                     tile.drawy(),
