@@ -51,15 +51,15 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
             Effects.effect(siloLaunchEffect, tile)
             
             // create 10 bullets at this tile's location with random rotation and velocity/lifetime
-            for(var i = 0; i < 10; i++){
+            for(var i = 0; i < 5; i++){
                 Calls.createBullet(
                     simpleBullet,
                     tile.getTeam(),
                     tile.drawx(),
                     tile.drawy(),
                     Mathf.random(360),
-                    Mathf.random(0.5, 1.0),
-                    Mathf.random(0.2, 1.0)
+                    Mathf.random(1.0, 2.0),
+                    Mathf.random(1.0, 2.0)
                 )
             }
             // triggering consumption makes it use up the items it requires
@@ -72,5 +72,15 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
 const simpleBullet = extend(BasicBulletType, {
     damage: 5,
     pierce: true,
-    despawnEffect: "flakExplosionBig"
+    despawnEffect: "flakExplosionBig",
+    bulletWidth: 10,
+    bulletHeight: 13,
+    fragBullets: 5,
+    fragVelocityMin: 1,
+    fragVelocityMax: 1,
+    fragBullet: {
+        damage: 5,
+        pierce: true,
+        despawnEffect: "flakExplosionBig",
+    }
 });
