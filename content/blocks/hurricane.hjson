@@ -20,7 +20,8 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 5
+    ammoMultiplier: 2
+    lifeTime: "nextDouble() * 100" + 100
   }
 }
 requirements: [
