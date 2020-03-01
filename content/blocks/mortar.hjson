@@ -4,17 +4,18 @@ name: Mortar
 description: Fires a shell into the air.
 health: 200
 size: 2
-reload: 120
-range: 4000
+reload: 180
+range: 2000
 ammoUseEffect: shellEjectBig
-inaccuracy: 1.2
+inaccuracy: 5
 rotatespeed: 12
 ammo: {
   explosive-shell: {
+    type: ArtilleryBulletType
     speed: 5
-    damage: 5
-    splashDamage: 20
-    splashDamageRadius: 20
+    damage: 10
+    splashDamage: 30
+    splashDamageRadius: 30
     despawnEffect: shockwave
     bulletWidth: 10
     bulletHeight: 15
