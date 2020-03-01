@@ -1,0 +1,16 @@
+type: flyingUnit
+name: Mini-bomber
+description: Drops dangerous bombs.
+speed: 0.5
+flying: true
+health: 120
+engineOffset: 5.5
+range: 160
+targetAir
+weapon: {
+  name: explosive-shell
+  length: 1.5
+  reload: 20
+  alternate: true
+  bullet: bombExplosive
+}
