@@ -1,0 +1,29 @@
+  
+type: ArtilleryTurret
+name: Mortar
+description: Fires a shell into the air.
+health: 200
+size: 1
+reload: 120
+range: 4000
+ammoUseEffect: shellEjectBig
+inaccuracy: 1
+rotatespeed: 12
+ammo: {
+  explosive-shell: {
+    speed: 3
+    damage: 3
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  lead/40
+  copper/70
+  titanium/20
+]
+category: turret
+research: duo
