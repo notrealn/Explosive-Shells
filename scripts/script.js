@@ -59,7 +59,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
                     tile.drawy(),
                     Mathf.random(360),
                     Mathf.random(0.2, 1.0),
-                    Mathf.random(1.0, 8.0)
+                    Mathf.random(1.0, 9.0)
                 )
             }
             // triggering consumption makes it use up the items it requires
