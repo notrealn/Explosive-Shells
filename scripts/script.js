@@ -51,7 +51,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
             Effects.effect(siloLaunchEffect, tile)
             
             // create 10 bullets at this tile's location with random rotation and velocity/lifetime
-            for(var i = 0; i < 5; i++){
+            for(var i = 0; i < 20; i++){
                 Calls.createBullet(
                     booleet,
                     tile.getTeam(),
