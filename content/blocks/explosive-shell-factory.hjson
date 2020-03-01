@@ -1,0 +1,29 @@
+  
+type: GenericCrafter
+name: Explosive Shell Factory
+description: Makes explosive shells out of lead, copper, and blast compound.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      lead/2
+      copper/3
+      blast-compound/1
+    ]
+  }
+}
+requirements: [
+  lead/50
+  graphite/80
+  silicon/60
+]
+category: crafting
+research: graphite-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: explosive-shell/1

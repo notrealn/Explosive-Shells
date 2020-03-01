@@ -1,0 +1,7 @@
+type: resource
+name: Explosive Shell
+description: An explosive shell that explodes.
+explosiveness: 5
+flammability: 0.2
+cost: 1
+color: a13d2d
