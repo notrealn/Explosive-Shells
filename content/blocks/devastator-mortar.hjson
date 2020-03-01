@@ -1,6 +1,6 @@
-type: BurstTurret
+type: ArtilleryTurret
 name: Devastator Mortar
-description: Fires multiple shells into the air.
+description: Fires a shell that splits into many other explosive bullets, doing lots of damage.
 health: 200
 size: 3
 reload: 240
@@ -26,7 +26,10 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
-    lifeTime: 12341243
+    fragBullets: 10
+    fragBullet: {
+      type: bombExplosive
+    }
   }
 }
 requirements: [
