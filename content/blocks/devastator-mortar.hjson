@@ -26,10 +26,8 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
-    fragBullets: 10
-    fragBullet: {
-      type: BombBulletType
-    }
+    fragBullets: 5
+    fragBullet: flakExplosive
   }
 }
 requirements: [
