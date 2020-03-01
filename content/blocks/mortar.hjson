@@ -3,7 +3,7 @@ type: ArtilleryTurret
 name: Mortar
 description: Fires a shell into the air.
 health: 200
-size: 1
+size: 2
 reload: 120
 range: 4000
 ammoUseEffect: shellEjectBig
