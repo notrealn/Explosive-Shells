@@ -58,7 +58,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
                     tile.drawx(),
                     tile.drawy(),
                     Mathf.random(360),
-                    Mathf.random(0.5, 2.0),
+                    Mathf.random(0.2, 1.0),
                     Mathf.random(1.0, 10.0)
                 )
             }
