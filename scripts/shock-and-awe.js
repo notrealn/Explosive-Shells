@@ -1,4 +1,3 @@
-/*
 //this is NOT the complete definition for this block! see content/blocks/scatter-silo.hjson for the stats and other properties.
 
 //create a simple shockwave effect
@@ -51,4 +50,3 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
         }
     }
 })
-*/
