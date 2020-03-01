@@ -1,3 +1,3 @@
-# ExampleMod
+# Simple Shells
 
-my first mod, used to test stuff
+my first mod. adds shells into the game
