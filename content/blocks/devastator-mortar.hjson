@@ -26,6 +26,7 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
+    lifeTime: 12341243
   }
 }
 requirements: [
