@@ -1,6 +1,6 @@
 name: "test-mod-asdfadsfasdfasdfsadfasdfadsfasdfadsfsafd"
-displayName: "[orange]Example[gold] Mod" //what displays in the mod selection menu
+displayName: "[orange]mod[gold] Mod" //what displays in the mod selection menu
 author: "q"
 description: "my first test mod."
-version: "3.1"
+version: "1243321412342134"
 minGameVersion: "103"
