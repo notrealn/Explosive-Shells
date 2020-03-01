@@ -27,11 +27,14 @@ ammo: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     fragBullets: 5
+    fragVelocityMin: 0.5
+    fragVelocityMax: 1.5
     fragBullet: {
-      type: FlakBulletType
+      type: BombBulletType
       damage: 5
-      splashDamage: 10
+      splashDamage: 20
       splashDamageRadius: 20
+      drag: 0
       despawnEffect: flakExplosionBig
       lifetime: 60
       collides: false
@@ -39,9 +42,11 @@ ammo: {
   }
 }
 requirements: [
-  lead/40
-  copper/70
-  titanium/20
+  lead/100
+  copper/150
+  titanium/80
+  plastanium/60
+  surge-alloy/60
 ]
 category: turret
 research: mortar
