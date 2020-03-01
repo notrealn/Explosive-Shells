@@ -27,7 +27,12 @@ ammo: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     fragBullets: 5
-    fragBullet: bombExplosive
+    fragBullet: {
+      type: FlakBulletType
+      damage: 5
+      despawnEffect: flakExplosionBig
+      lifetime: 30
+    }
   }
 }
 requirements: [
