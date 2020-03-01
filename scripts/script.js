@@ -68,7 +68,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
     }
 })
 
-const buleet2 = extend(FlakBulletType, {
+const buleet2 = extend(ArtilleryBulletType, {
     hitSize: 0,
     collidesTiles: false,
     collides: true,
