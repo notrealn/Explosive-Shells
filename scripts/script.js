@@ -59,7 +59,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
                     tile.drawy(),
                     Mathf.random(360),
                     Mathf.random(0.2, 1.0),
-                    Mathf.random(1.0, 10.0)
+                    Mathf.random(1.0, 8.0)
                 )
             }
             // triggering consumption makes it use up the items it requires
@@ -73,4 +73,10 @@ const booleet = extend(FlakBulletType, {
     despawnEffect: "flakExplosionBig",
     bulletWidth: 15,
     bulletHeight: 20,
+    status: {
+        damageMultiplier: 0.1,
+        speedMultiplier: 0.1,
+        splashDamageRadius: 50,
+        color: "ffff00"
+    }
 });
