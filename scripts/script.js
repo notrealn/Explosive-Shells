@@ -50,7 +50,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
             // make this effect occur at the tile location
             Effects.effect(siloLaunchEffect, tile)
             
-            // create 10 bullets at this tile's location with random rotation and velocity/lifetime
+            // create 20 bullets at this tile's location with random rotation and velocity/lifetime
             for(var i = 0; i < 20; i++){
                 Calls.createBullet(
                     booleet,
@@ -58,8 +58,8 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
                     tile.drawx(),
                     tile.drawy(),
                     Mathf.random(360),
-                    Mathf.random(1.0, 2.0),
-                    Mathf.random(1.0, 2.0)
+                    Mathf.random(2.0, 4.0),
+                    Mathf.random(2.0, 4.0)
                 )
             }
             // triggering consumption makes it use up the items it requires
@@ -79,6 +79,7 @@ const booleet = extend(BasicBulletType, {
     fragVelocityMin: 1,
     fragVelocityMax: 2,
     fragBullet: {
+        lifetime: 60,
         bulletWidth: 15,
         bulletHeight: 20,
         fragBullets: 5,
@@ -88,6 +89,7 @@ const booleet = extend(BasicBulletType, {
         pierce: true,
         despawnEffect: "flakExplosionBig",
         fragBullet: {
+            lifetime: 60,
             bulletWidth: 15,
             bulletHeight: 20,
             damage: 5,
