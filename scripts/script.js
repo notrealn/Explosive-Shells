@@ -72,5 +72,5 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
             //triggering consumption makes it use up the items it requires
             tile.entity.cons.trigger()
         }
-    }
+    }h
 })
