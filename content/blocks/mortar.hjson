@@ -1,4 +1,3 @@
-  
 type: ArtilleryTurret
 name: Mortar
 description: Fires a shell into the air.
@@ -30,4 +29,4 @@ requirements: [
   titanium/20
 ]
 category: turret
-research: duo
+research: hail
