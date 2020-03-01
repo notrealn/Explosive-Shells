@@ -31,6 +31,8 @@ ammo: {
     fragVelocityMax: 1.5
     fragBullet: {
       type: BombBulletType
+      bulletWidth: 8
+      bulletHeight: 10
       damage: 5
       splashDamage: 20
       splashDamageRadius: 20
