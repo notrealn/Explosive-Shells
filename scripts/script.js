@@ -50,13 +50,6 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
             // make this effect occur at the tile location
             Effects.effect(siloLaunchEffect, tile)
             
-            // make bullet
-            const simpleBullet = extend(BasicBulletType, {
-              damage: 5,
-              pierce: true,
-              despawnEffect: "flakExplosionBig"
-            });
-            
             // create 10 bullets at this tile's location with random rotation and velocity/lifetime
             for(var i = 0; i < 10; i++){
                 Calls.createBullet(
@@ -74,3 +67,10 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
         }
     }
 })
+
+            
+const simpleBullet = extend(BasicBulletType, {
+    damage: 5,
+    pierce: true,
+    despawnEffect: "flakExplosionBig"
+});
