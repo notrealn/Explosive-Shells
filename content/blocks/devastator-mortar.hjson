@@ -28,7 +28,7 @@ ammo: {
     ammoMultiplier: 1
     fragBullets: 10
     fragBullet: {
-      type: bombExplosive
+      type: BombBulletType
     }
   }
 }
