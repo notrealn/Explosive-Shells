@@ -9,15 +9,16 @@ range: 320
 ammoUseEffect: shellEjectSmall
 inaccuracy: 50
 rotatespeed: 2
-shots: 5
+shots: 8
 spread: 5
+targetAir: false
 ammo: {
   lead: {
     type: FlakBulletType
     speed: 5
     damage: 20
-    splashDamage: 30
-    splashDamageRadius: 40
+    splashDamage: 40
+    splashDamageRadius: 50
     bulletWidth: 10
     bulletHeight: 13
     shootEffect: shootSmall
