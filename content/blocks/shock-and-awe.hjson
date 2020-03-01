@@ -1,0 +1,21 @@
+size: 3
+update: true
+solid: true
+hasItems: true
+configurable: true
+localizedName: "Scatter Silo"
+description: "A player-activatable block that scatters bullets everywhere upon use."
+category: turret
+requirements: [
+  silicon/75,
+  copper/120,
+  surge-alloy/50,
+  graphite/100
+]
+consumes: {
+  items: {
+    items: [
+      explosive-shell/10
+    ]
+  }
+}
