@@ -1,0 +1,33 @@
+type: BurstTurret
+name: Devastator Mortar
+description: Fires multiple shells into the air.
+health: 200
+size: 3
+reload: 240
+range: 1500
+ammoUseEffect: shellEjectBig
+inaccuracy: 8
+rotatespeed: 8
+targetAir: false
+ammo: {
+  explosive-shell: {
+    type: ArtilleryBulletType
+    speed: 5
+    damage: 10
+    splashDamage: 30
+    splashDamageRadius: 30
+    despawnEffect: shockwave
+    bulletWidth: 10
+    bulletHeight: 15
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+  }
+}
+requirements: [
+  lead/40
+  copper/70
+  titanium/20
+]
+category: turret
+research: mortar
