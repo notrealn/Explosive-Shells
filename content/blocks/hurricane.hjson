@@ -11,7 +11,8 @@ inaccuracy: 50
 rotatespeed: 2
 shots: 8
 spread: 5
-targetAir: false
+targetAir: true
+targetGround: false
 ammo: {
   lead: {
     type: FlakBulletType
