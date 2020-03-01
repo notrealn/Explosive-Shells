@@ -11,11 +11,11 @@ inaccuracy: 1
 rotatespeed: 12
 ammo: {
   explosive-shell: {
-    speed: 3
-    damage: 3
+    speed: 5
+    damage: 5
     splashDamage: 40
-    splashDamageRadius: 20
-    despawnEffect: impactShockwave
+    splashDamageRadius: 40
+    despawnEffect: shockwave
     bulletWidth: 15
     bulletHeight: 20
     shootEffect: shootBig
