@@ -16,8 +16,8 @@ ammo: {
     splashDamage: 20
     splashDamageRadius: 20
     despawnEffect: shockwave
-    bulletWidth: 15
-    bulletHeight: 20
+    bulletWidth: 10
+    bulletHeight: 15
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
