@@ -58,8 +58,8 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
                     tile.drawx(),
                     tile.drawy(),
                     Mathf.random(360),
-                    Mathf.random(2.0, 4.0),
-                    Mathf.random(2.0, 4.0)
+                    Mathf.random(1.0, 4.0),
+                    Mathf.random(1.0, 4.0)
                 )
             }
             // triggering consumption makes it use up the items it requires
@@ -69,9 +69,9 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
 })
 
             
-const booleet = extend(BasicBulletType, {
+const booleet = extend(FlakBulletType, {
     damage: 5,
-    pierce: true,
+//     pierce: true,
     despawnEffect: "flakExplosionBig",
     bulletWidth: 15,
     bulletHeight: 20,
@@ -86,14 +86,14 @@ const booleet = extend(BasicBulletType, {
         fragVelocityMin: 1,
         fragVelocityMax: 2,
         damage: 5,
-        pierce: true,
+//         pierce: true,
         despawnEffect: "flakExplosionBig",
         fragBullet: {
             lifetime: 60,
             bulletWidth: 15,
             bulletHeight: 20,
             damage: 5,
-            pierce: true,
+//             pierce: true,
             despawnEffect: "flakExplosionBig",
         }
     }
