@@ -1,5 +1,5 @@
-name: "test-mod-asdfadsfasdfasdfsadfasdfadsfasdfadsfsafd"
-displayName: "[orange]mod[gold] Mod" //what displays in the mod selection menu
+name: "Simple Shells"
+displayName: "[orange]Simple[gold] Shells" //what displays in the mod selection menu
 author: "q"
 description: "my first test mod."
 version: "1243321412342134"
