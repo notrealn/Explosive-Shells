@@ -53,7 +53,7 @@ const shockAndAwe = extendContent(Block, "shock-and-awe", {
             // create 20 bullets at this tile's location with random rotation and velocity/lifetime
             for(var i = 0; i < 20; i++){
                 Calls.createBullet(
-                    buleet2,
+                    booleet,
                     tile.getTeam(),
                     tile.drawx(),
                     tile.drawy(),
@@ -108,23 +108,5 @@ const booleet = extend(FlakBulletType, {
     fragBullets: 50,
     fragVelocityMin: 1,
     fragVelocityMax: 2,
-    fragBullet: {
-        lifetime: 600,
-        bulletWidth: 15,
-        bulletHeight: 20,
-        fragBullets: 5,
-        fragVelocityMin: 1,
-        fragVelocityMax: 2,
-        damage: 5,
-//         pierce: true,
-        despawnEffect: "flakExplosionBig",
-        fragBullet: {
-            lifetime: 60,
-            bulletWidth: 15,
-            bulletHeight: 20,
-            damage: 5,
-//             pierce: true,
-            despawnEffect: "flakExplosionBig",
-        }
-    }
+    fragBullet: Bullets.flakExplosive
 });
